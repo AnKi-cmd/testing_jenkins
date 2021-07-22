@@ -28,6 +28,8 @@ answers = ["10.0.19.17",	 "YourLogin",
 		   "5120", "centos76"]
 
 
+#Tests can be improved by generating responses
+
 #PROBLEMS WITH:
 #get_cloud_provider_templates
 
