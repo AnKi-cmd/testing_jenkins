@@ -1,0 +1,55 @@
+{
+  "fogs": [
+    {
+      "cloud_provider": {
+        "credential": {
+          "login": "#2",
+          "password": "#3"
+        },
+        "network": {
+          "dns_name": "1!"
+        }
+      },
+      "infrastructure_config": [
+        {
+          "name": "Ovirt",
+          "machine_role": {
+            "name": "ovirt server"
+          },
+          "credential": {
+            "login": "No",
+            "password": "Ha"
+          },
+          "network": {
+            "ip": "Something_incorrect???"
+          }
+        },
+        {
+          "name": "te",
+          "machine_role": {
+            "name": "terraform"
+          },
+          "operation_system": {
+            "name": "ce"
+          },
+          "credential": {
+            "login": "ro",
+            "password": "ei"
+          },
+          "network": {
+            "dns_name": "t",
+            "ip": "10.k.o.111",
+            "gateway": "10.d.0.1",
+            "netmask": "255.255.c.0",
+            "dns_search": "de.",
+            "dns_servers": "10.0.q.1"
+          },
+          "resource": {
+            "cpu": "CentralPROCESSORUNIT*!*!*!*&!&!&!&R&#&&&!",
+            "ram": "Very much ram oaoaoa"
+          }
+        }
+      ]
+    }
+  ]
+}
