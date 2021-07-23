@@ -42,6 +42,6 @@ def test_get_smt():
 		assert test_correct_file() == answers[kol]
 		with pytest.raises(Exception) as err:
 			test_incorrect_file()
-		assert re.search("ValidationValueError", str(err))
+		assert not re.search("ValidationValueError", str(err))
 		kol += 1
 
