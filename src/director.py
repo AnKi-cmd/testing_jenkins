@@ -14,7 +14,6 @@
 
 
 from __future__ import annotations
-
 from src.builder.ovirt_builder import *
 from src.builder.terraform_builder import *
 from src.configurator.json_configurator import *
