@@ -4,7 +4,7 @@ from src.configurator.env_configurator import *
 
 test = ENVConfigurator()
 
-#вввkk
+#вввkkdddd
 
 def test_get_env_var_by_name():
     for variants in os.environ.keys():
