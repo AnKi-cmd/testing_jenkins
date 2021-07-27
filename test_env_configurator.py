@@ -11,6 +11,6 @@ def test_get_env_var_by_name():
         assert test.get_env_var_by_name(variants) == os.environ.get(variants)
     with pytest.raises(Exception) as err:
         test.get_env_var_by_name("nothing")
-    assert "ConfiguratorKeyError" in str(err)
+    assert "NOTConfiguratorKeyError" in str(err)
 
 
